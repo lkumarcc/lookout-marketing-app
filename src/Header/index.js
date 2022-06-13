@@ -1,3 +1,4 @@
+import { Dropdown } from 'bootstrap';
 import React from 'react';
 import {
   Collapse,
@@ -37,33 +38,20 @@ export default class Header extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">rdsjnckjnsd</NavbarBrand>
+          <NavbarBrand href="/">Port Lookout</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="ms-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="/Pricing/">Pricing</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                <NavLink href="/Features/">Features</NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Options
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                    Option 1
-                  </DropdownItem>
-                  <DropdownItem>
-                    Option 2
-                  </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
+              <NavItem>
+                <NavLink href="/ContactUs/">Contact Us</NavLink>
+              </NavItem>
+              {/* include potential dropdown here */}
             </Nav>
           </Collapse>
         </Navbar>
@@ -71,3 +59,21 @@ export default class Header extends React.Component {
     );
   }
 }
+
+// potential Dropdown<UncontrolledDropdown nav inNavbar>
+// <DropdownToggle nav caret>
+//   Options
+// </DropdownToggle>
+// <DropdownMenu right>
+//   <DropdownItem>
+//     Option 1
+//   </DropdownItem>
+//   <DropdownItem>
+//     Option 2
+//   </DropdownItem>
+//   <DropdownItem divider />
+//   <DropdownItem>
+//     Reset
+//   </DropdownItem>
+// </DropdownMenu>
+// </UncontrolledDropdown>
