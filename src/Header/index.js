@@ -12,6 +12,14 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
+import { Button } from 'react-bootstrap';
+import './header.css';
+ 
+
+const buttonstyle = {
+  marginRight: 30,
+  marginLeft: 10,
+};
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -22,6 +30,7 @@ export default class Header extends React.Component {
       isOpen: false
     };
   }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
@@ -46,11 +55,13 @@ export default class Header extends React.Component {
                 <NavLink href="/Pricing/">Pricing</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Features/">Features</NavLink>
+                <NavLink href="./Pages/Features/">Features</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/ContactUs/">Contact Us</NavLink>
               </NavItem>
+              <Button style={buttonstyle}>Login
+		          </Button>
               {/* include potential dropdown here */}
             </Nav>
           </Collapse>
