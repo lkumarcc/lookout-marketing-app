@@ -52,13 +52,14 @@ export default class Header extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ms-auto" navbar>
               <NavItem>
-                <NavLink href="/Pricing/">Pricing</NavLink>
+                <NavLink href="/Pages/Pricing/">Pricing</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="./Pages/Features/">Features</NavLink>
+                <NavLink href="/Pages/Features/">
+                  Features</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/ContactUs/">Contact Us</NavLink>
+                <NavLink href="/Pages/ContactUs/">Contact Us</NavLink>
               </NavItem>
               <Button style={buttonstyle}>Login
 		          </Button>

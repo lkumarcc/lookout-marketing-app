@@ -5,7 +5,8 @@ const Features = () => {
   return ( 
 
    <div>
-    test
+     <p>IOHJDVLJLDKJKLDJVLKJDLK</p>
+
     </div>
 
   );

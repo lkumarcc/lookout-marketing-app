@@ -1,11 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Header'
+import Home from './Home' 
+import Features from "./Pages/Features"
+import Pricing from "./Pages/Pricing"
+import ContactUs from "./Pages/ContactUs"
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route path='/Pages/Pricing/' element={<Pricing/>} />
+          <Route path='/Pages/Features/' element={<Features />} />
+          <Route path='/Pages/ContactUs/' element={<ContactUs />} />
+        </Routes>
     </div>
   );
 }

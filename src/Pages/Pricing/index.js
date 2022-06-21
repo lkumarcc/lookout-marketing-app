@@ -5,7 +5,7 @@ const Pricing = () => {
   return ( 
 
    <div>
-    
+    page with da money
     </div>
 
   );
