@@ -2,24 +2,54 @@ import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import portcallimage from '../../Images/portcallimage.png'
 import './features.css';
+import RealCarousel from './Carousel'
 
-// const numberheader = {
-//   maxWidth: "100%",
-//   maxHeight: "100%",
-//   display: block,
-// };
+
+
 
 const Features = () => {
   return ( 
 
    <div>
      {/* Container 1: Header */}
+     <div style={{backgroundColor: "#EAF1F1"}}>
      <Container>
        <Row>
-         <Col sm={12}>
+         <Col sm={3}>
+           </Col>
+         <Col sm={6}>
+           <div style={{ marginTop: "100px",  marginBottom: "50px"}}>
+         <h1 className = "features-row-header">Port Calls have never been easier. Features made by our teams for yours.</h1>
+         </div>
+         </Col>
+         <Col sm={3}>
          </Col>
        </Row>
+
+       <Row>
+       <Col sm={2}>
+           </Col>
+         <Col sm={8}>
+           <RealCarousel></RealCarousel>
+         </Col>
+         <Col sm={2}>
+           </Col>
+       </Row>
+
+       <Row>
+         <Col sm={3}>
+           </Col>
+         <Col sm={6}>
+           <div style={{ marginTop: "30px",  marginBottom: "70px", color: "#246A73"}}>
+           <p>Click to find out more</p>
+           </div>
+         </Col>
+         <Col sm={3}>
+         </Col>
+       </Row>
+
      </Container>
+     </div>
 
      {/* Container 2: Lookout n Outlook */}
      <Container>
@@ -111,32 +141,50 @@ const Features = () => {
 
      
 
-     {/* Container 7: Words here */}
+     {/* Container 7: Footer */}
+     <div className = "container-seven-styling">
      <Container>
-       <div className = "container-seven-styling">
+       
        <Row>
-         <Col sm={12}>
-          <h2 className = "features-footer-header">Words Here. Power Stance. </h2>
-          <p fontSize = "40px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis sapien turpis.</p>
+         <Col sm={4}></Col>
+         <Col sm={4}>
+           <div className = "align-items-center justify-content-center">
+          <h1 className = "features-footer-header">Words Here. Power Stance. </h1>
+          <p style={{fontSize: "20px",  marginTop: "40px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis sapien turpis.</p>
+          </div>
          </Col>
+         <Col sm={4}></Col>
        </Row>
        <Row>
-         <Col sm={6}>
-           <Button variant="primary"> Click for Demo </Button>
+         <Col sm={3}></Col>
+         <Col sm={3}>
+           <Button style={{ backgroundColor: "#FFFFFF",
+                             color: "#000000",
+                             fontWeight: "bolder", 
+                             marginTop: "20px" }}
+                            size="lg"> 
+                            Click for Demo </Button>
+         
          </Col>
-         <Col sm={6}>
-         <Button variant="primary"> Plans and Pricing </Button>
+         <Col sm={3}>
+         <Button style={{ backgroundColor: "#FFFFFF",
+                          color: "#000000",
+                          fontWeight: "bolder", 
+                          marginTop: "20px"  }} size="lg">
+                           Plans and Pricing </Button>
          </Col>
+         <Col sm={3}></Col>
        </Row>
        <Row>
        <Col sm={12}>
-         <div>
+         <div className = "features-footer-image">
        <Image src={portcallimage} className='img-fluid shadow-4' alt='...'></Image>
        </div>
        </Col>
        </Row>
-       </div>
+       
      </Container>
+     </div>
     </div>
 
   );
