@@ -19,6 +19,11 @@ import './header.css';
 const buttonstyle = {
   marginRight: 30,
   marginLeft: 10,
+  backgroundColor:"#5774BF",
+  color: "#FFFFFF",
+  fontWeight: "bolder", 
+  // marginTop: "20px", 
+  borderRadius: "12px"
 };
 
 export default class Header extends React.Component {

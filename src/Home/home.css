@@ -1,0 +1,25 @@
+.home-three-row{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home-three-image{
+    padding-left: 20px;
+    margin-bottom: 40px;
+    padding-right: 20px;
+}
+
+.home-container-left{
+   text-align: left;
+   margin-bottom: 40px;
+}
+
+.container-spacing{
+    margin-top: 150x;
+    margin-bottom:150px;
+}
+
+.home-header{
+    font-weight: bolder;
+    color: #246A73;
+}
