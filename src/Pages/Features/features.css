@@ -1,0 +1,31 @@
+.features-row-header{
+    margin-bottom: 30px;
+    color: #246A73;
+    font-weight: bold;
+}
+
+.features-images{
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+
+.features-word-style-two{
+    text-align: right;
+}
+
+.features-word-style-one{
+    text-align: left;
+}
+
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-seven-styling{
+    background-color: #246A73;
+    color: white;
+}
+
