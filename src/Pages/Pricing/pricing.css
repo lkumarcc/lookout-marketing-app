@@ -1,3 +1,7 @@
 .pricing-card-header{
     font-weight: bolder;
 }
+
+.img-fluid{
+    border-radius: 15px;
+}

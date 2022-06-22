@@ -51,7 +51,7 @@ const Home = () => {
       <Row>
         <Col sm={12}>
           <div style={imgStyleTemp}>
-        <Image src={portcallimage} className='img-fluid shadow-4' alt='...' ></Image>
+        <Image src={portcallimage} className='img-fluid shadow-4' alt='...' style={{borderRadius: "15px"}} ></Image>
         </div>
         </Col>
       </Row>
@@ -85,7 +85,7 @@ const Home = () => {
         <Col sm={4}>
           <div className="home-three-row">
             <div className="home-three-image"> 
-            <Image src={portcallimage} className='img-fluid rounded' alt='...'></Image>
+            <Image src={portcallimage} className='img-fluid rounded' alt='...' ></Image>
             </div>
             <h2 className = "home-header" >Documentation</h2>
             <p>Cras nulla in massa et. Nisl volutpat nulla </p>
@@ -124,7 +124,7 @@ const Home = () => {
             
         </Col>
         <Col sm={10}>
-        <Image src={portcallimage} className='img-fluid shadow-4' alt='...'></Image>
+        <Image src={portcallimage} className='img-fluid shadow-4' alt='...' style={{borderRadius: "15px"}}></Image>
         </Col>
       </Row>
     </Container>
@@ -147,7 +147,7 @@ const Home = () => {
       </Row>
       <Row>
         <Col sm={10}>
-        <Image src={portcallimage} className='img-fluid shadow-4' alt='...'></Image>
+        <Image src={portcallimage} className='img-fluid shadow-4' alt='...' style={{borderRadius: "15px"}}></Image>
         </Col>
         <Col sm={2}>
                 
@@ -175,7 +175,7 @@ const Home = () => {
             
         </Col>
         <Col sm={10}>
-        <Image src={portcallimage} className='img-fluid shadow-4' alt='...'></Image> 
+        <Image src={portcallimage} className='img-fluid shadow-4' alt='...' style={{borderRadius: "15px"}}></Image> 
         </Col>
       </Row>
     </Container>
