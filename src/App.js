@@ -17,9 +17,9 @@ function App() {
       <Header />
       <Routes>
           <Route exact path='/' element={<Home />} />
-          <Route path='/Pages/Pricing/' element={<Pricing/>} />
-          <Route path='/Pages/Features/' element={<Features />} />
-          <Route path='/Pages/ContactUs/' element={<ContactUs />} />
+          <Route path='/Pages/Pricing/' element={<Home />} />
+          <Route path='/Pages/Features/' element={<Home />} />
+          <Route path='/Pages/ContactUs/' element={<Home />} />
         </Routes>
     </div>
   );

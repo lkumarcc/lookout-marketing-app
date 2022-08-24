@@ -53,7 +53,7 @@ const Pricing = () => {
                           fontWeight: "bolder", 
                           marginTop: "20px", 
                           borderRadius: "12px" }} size="lg">
-                           Plans and Pricing </Button>
+                           Contact Us </Button>
         </Col>
         <Col sm={4}>
         </Col>

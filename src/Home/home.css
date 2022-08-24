@@ -1,3 +1,15 @@
+.homepage-background {
+    padding-top: 30px;
+    margin-top: 0;
+    min-height: 100vh;
+    width: 100%;
+    opacity: .9;
+    overflow: visible;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../Images/portlookouthomepage.png");
+}
+
 .home-three-row{
     margin-left: 10px;
     margin-right: 10px;
@@ -21,5 +33,6 @@
 
 .home-header{
     font-weight: bolder;
-    color: #246A73;
+    color: #FFFFFF;
 }
+
