@@ -57,7 +57,7 @@ const Home = () => {
      <Container>
       <Row>
          <Col sm={3}></Col>
-         <Col sm={6}>
+         <Col sm={6} style={{marginBottom:"30px"}}>
             <HomepageButton></HomepageButton>
          </Col>
          <Col sm={3}></Col>
